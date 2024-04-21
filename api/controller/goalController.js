@@ -6,3 +6,7 @@ const getGoals = (req, res) => {
 		message: 'get received',
 	});
 };
+
+module.exports = {
+	getGoals,
+};
